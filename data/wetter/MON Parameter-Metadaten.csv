@@ -1,0 +1,157 @@
+,Kurzbeschreibung,Beschreibung,Einheit
+Tautemp,Taupunkt Monatsmittel,"Taupunktstemperatur, Monatsmittel - Summe aller Taupunkte aus 7, 14, 19/21 Uhr-Terminen",°C
+b,"Bewölkungsmenge Monatsmittel aller Beobachtungstermine I,II,III","Bewölkungsmittel aller Beobachtungstermine - Mittel aller 7 Uhr, 14 Uhr  und  19/21 Uhr Termine",1/100
+b14,Bewölkungsmenge Monatsmittel der Beobachtungstermine II,Bewölkungsmenge Monatsmittel zum Beobachtungstermin II (14:00 MEZ) - Mittel aller14 Uhr Termine,1/100
+b19,Bewölkungsmenge Monatsmittel der Beobachtungstermine III,"Bewölkungsmenge Monatsmittel zum Beobachtungstermin III (19 MEZ / vor 1971: 21 Uhr MOZ ) - Mittel aller 19/21 Uhr Termine / vor 1971 21 Uhr, ab 1971 19 Uhr",1/100
+b7,Bewölkungsmenge Monatsmittel der Beobachtungstermine I,Bewölkungsmenge Monatsmittel zum Beobachtungstermin I (07:00 MEZ) - Mittel aller 7 Uhr Termine,1/100
+ddc,Anzahl der Beobachtungstermine mit Calmen,Windrichtung Anzahl der Termine mit Calmen = Windstille - Termine mit dd=0,
+dde,Anzahl der Beobachtungstermine mit Windrichtung O,Windrichtung Anzahl der Termine mit Windrichtung Sektor Ost - Termine mit dd=8,
+ddn,Anzahl der Beobachtungstermine mit Windrichtung N,Windrichtung Anzahl der Termine mit Windrichtung Sektor Nord - Termine mit dd=32,
+ddne,Anzahl der Beobachtungstermine mit Windrichtung NO,Windrichtung Anzahl der Termine mit Windrichtung Sektor Nordost - Termine mit dd=4,
+ddnw,Anzahl der Beobachtungstermine mit Windrichtung NW,Windrichtung Anzahl der Termine mit Windrichtung Sektor Nordwest - Termine mit dd=28,
+dds,Anzahl der Beobachtungstermine mit Windrichtung S,Windrichtung Anzahl der Termine mit Windrichtung Sektor Süd - Termine mit dd=16,
+ddse,Anzahl der Beobachtungstermine mit Windrichtung SO,Windrichtung Anzahl der Termine mit Windrichtung Sektor Südost - Termine mit dd=12,
+ddsw,Anzahl der Beobachtungstermine mit Windrichtung SW,Windrichtung Anzahl der Termine mit Windrichtung Sektor Südwest - Termine mit dd=20,
+ddw,Anzahl der Beobachtungstermine mit Windrichtung W,Windrichtung Anzahl der Termine mit Windrichtung Sektor West - Termine mit dd=24,
+e,"Dampfdruck Monatsmittel aller Beobachtungstermine I,II,III","Dampfdruck Monatsmittel aus Tageswerten - Mittel aller 7 Uhr,14 Uhr,19/21Uhr Termine",hPa
+e10,Erdbodentemperatur -10cm Monatsmittel,"Erdbodentemperatur in 10cm Tiefe, Monatsmittel der Stundenwerte - Mittel aller Stundenwerte, zumindest > 600 Werte",°C
+e100,Erdbodentemperatur -100cm Monatsmittel,"Erdbodentemperatur in 100cm Tiefe, Monatsmittel der Stundenwerte - Mittel aller Stundenwerte, zumindest > 600 Werte",°C
+e14,Dampfdruck Monatsmittel der Beobachtungstermine II,Dampfdruck Monatsmittel zum Termin II (14:00 MEZ) - Mittel aller 14 Uhr Dampfdrucke,hPa
+e19,Dampfdruck Monatsmittel der Beobachtungstermine III,"Dampfdruck Monatsmittel zum Termin III (19:00 MEZ) - Mittel aller 19/21 Uhr Termine / vor 1971 21 Uhr, ab 1971 19 Uhr",hPa
+e20,Erdbodentemperatur -20cm Monatsmittel,"Erdbodentemperatur in 20cm Tiefe, Monatsmittel der Stundenwerte - Mittel aller Stundenwerte, zumindest > 600 Werte",°C
+e200,Erdbodentemperatur -200cm Monatsmittel,"Erdbodentemperatur in 200cm Tiefe, Monatsmittel der Stundenwerte - Mittel aller Stundenwerte, zumindest > 600 Werte",°C
+e50,Erdbodentemperatur -50cm Monatsmittel,"Erdbodentemperatur in 50cm Tiefe, Monatsmittel der Stundenwerte - Mittel aller Stundenwerte, zumindest > 600 Werte",°C
+e7,Dampfdruck Monatsmittel der Beobachtungstermine I,Dampfdruck Monatsmittel zum Termin I (07:00 MEZ) - Mittel aller 7 Uhr Dampfdrucke,hPa
+eis,Zahl der Eistage,Zahl der Eistage: Tagesmaximum der Lufttemperatur in 2m Höhe < 0.0 °C - Summe der Tage mit tmax < 0,
+eschwuel,Zahl der etwas schwülen Tage,"Zahl der etwas schwülen Tage: Äquivalenttemperatur >=49.1 und <=56.0 °C - wenn Äquivalenttemperatur >= 49.1 und <= 56.0 °C ist (7,14,19 Uhr Termin)",
+festrr,Monatsssumme des festen Niederschlags,"Niederschlagssumme fest, Monatsssumme aus Tageswerten - festrr = Summe aller RR/10, wobei wenn nieda = 2,3,4,8,9,12,14 dann RR = nied, wenn nieda = 5,6,7,10,11,13 dann RR = nied/2",mm
+festrrp,Anteil des festen Niederschlags am Gesamtniederschlag,Niederschlag: Anteil des festen am gesamten Niederschlag (aus Tageswerten) - (festrr/rsum) * 100,%
+frost,Zahl der Frosttage,Zahl der Frosttage: Lufttemperatur 2m Tagesminimum < 0 °C - Summe der Tage mit tmin < 0,
+gew,Zahl der Tage mit Gewitter,"Zahl der Tage mit Gewitter, aus Code C - code_c = (2, 5, 8, 9, 10,11)",
+global,Monatssumme der Globalstrahlung,"Globalstrahlung kalibriert, Monatssumme der Stundenwerte - Summe aller Stundenwerte, Bemerkung: derzeit zT falsch",J/cm²
+gradt,Gradtagszahl 20/12,"Gradtagszahl 20/12 - Summe aller Werte (20.0 - Temperatur-Tagesmittel), wo Temperatur-Tagesmittel < 12.0 °C ist",°C
+graupel,Zahl der Tage mit Graupel,"Zahl der Tage mit Graupel, aus Niederschlagsart - nieda = (3, 6, 8, 9, 10, 11, 14, 15)",
+hagel,Zahl der Tage mit Hagel,"Zahl der Tage mit Hagel, aus Niederschlagsart - nieda = (4, 7, 9, 11, 12, 13, 14, 15)",
+heit,Zahl der heiteren Tage,Zahl der heiteren Tage:  Bewölkungsmenge Tagesmittel < 20/100 - bewmit < 20/100,
+ht,Zahl der Heiztage,"Zahl der Tage mit Heiztage 20/12 - Summe aller Tage, wo Temperatur-Tagesmittel =< 12.0 °C ist",
+maxe10,Erdbodentemperatur -10cm Monatsmaximum,"Erdbodentemperatur in 10cm Tiefe, Monatsmaximum der Stundenwerte - Maximum aller Stundenwerte",°C
+maxe100,Erdbodentemperatur -100cm Monatsmaximum,"Erdbodentemperatur in 100cm Tiefe, Monatsmaximum der Stundenwerte - Maximum aller Stundenwerte",°C
+maxe20,Erdbodentemperatur -20cm Monatsmaximum,"Erdbodentemperatur in 20cm Tiefe, Monatsmaximum der Stundenwerte - Maximum aller Stundenwerte",°C
+maxe200,Erdbodentemperatur -200cm Monatsmaximum,"Erdbodentemperatur in 200cm Tiefe, Monatsmaximum der Stundenwerte - Maximum aller Stundenwerte",°C
+maxe50,Erdbodentemperatur -50cm Monatsmaximum,"Erdbodentemperatur in 50cm Tiefe, Monatsmaximum der Stundenwerte - Maximum aller Stundenwerte",°C
+mine10,Erdbodentemperatur -10cm Monatsminimum,"Erdbodentemperatur in 10cm Tiefe, Monatsminimum der Stundenwerte - Minimum aller Stundenwerte",°C
+mine100,Erdbodentemperatur -100cm Monatsminumum,"Erdbodentemperatur in 100cm Tiefe, Monatsminumum der Stundenwerte - Minimum aller Stundenwerte",°C
+mine20,Erdbodentemperatur -20cm Monatsminimum,"Erdbodentemperatur in 20cm Tiefe, Monatsminimum der Stundenwerte - Minimum aller Stundenwerte",°C
+mine200,Erdbodentemperatur -200cm Monatsminimum,"Erdbodentemperatur in 200cm Tiefe, Monatsminimum der Stundenwerte - Minimum aller Stundenwerte",°C
+mine50,Erdbodentemperatur -50cm Monatsminimum,"Erdbodentemperatur in 50cm Tiefe, Monatsminimum der Stundenwerte - Minimum aller Stundenwerte",°C
+mtmax,Lufttemperatur 2m Monatsmittel aller Tagesmaxima,"Lufttemperatur in 2m Höhe, Monatsmittel aller Tagesmaxima - Summe täglicher Maxima/Anzahl der Tage",°C
+mtmin,Lufttemperatur 2m Monatsmittel aller Tagesminima,"Lufttemperatur in 2m Höhe, Monatsmittel aller Tagesminima - Summe täglicher Minima/Anzahl der Tage",°C
+n01,Zahl der Tage mit Niederschlag >= 0.1mm,"Zahl der Tage >= 0.1mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Tage mit nied >= 0 .1 und < 9999",
+n1,Zahl der Tage mit Niederschlag >= 1mm,"Zahl der Tage >= 1mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Tage mit nied >= 1.0 und < 9999",
+n10,Zahl der Tage mit Niederschlag >= 10mm,"Zahl der Tage >= 10mm Niederschlag, Monatsauswertung der Tagessummen zum Termin  I - Tage mit nied >= 10.0 und < 9999",
+n5,Zahl der Tage mit Niederschlag >= 5mm,"Zahl der Tage >= 5mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Tage mit nied >= 5.0 und < 9999",
+nebel,Zahl der Tage mit Nebel,"Zahl der Tage mit Nebel, aus Code C - code_c = (1, 5, 6,7, 10, 11)",
+nsch,Neuschneehöhe Monatssumme,"Neuschneehöhe, Monatssumme der Tageswerte zum Beobachtungstermin I - Summe aller neuschnee > 0 und < 9999",cm
+nschmax,Neuschneehöhe Monatsmaximum der Tageswerte,"Neuschneehöhe, Monatsmaximum der Tageswerte zum Beobachtungstermin I - Maximum von neuschnee < 9999",cm
+nschmaxt,Neuschneehöhe Tag des Monatsmaximums,"Neuschneehöhe, Tag des Monatsmaximums zum Beobachtungstermin I - Tag wo neuschnee = Maximum",
+p,Luftdruck Monatsmittel,"Luftdruck, Monatsmittel der Beobachtungstermine I, II, III - Summe aller 7,14,19/21 Uhr Terminwerte/Anzahl der Termine",hPa
+pmax,Luftdruck Monatsmaximum,"Luftdruck, Monatsmaximum aller Beobachtungstermine I,II,III - Maximum aller Termine des Monats",hPa
+pmin,Luftdruck Monatsminimum,"Luftdruck, Monatsminimum aller Beobachtungstermine I,II,III - Minimum aller Termine des Monats",hPa
+r15,Niederschlag Zahl der Tage >=15mm,"Zahl der Tage >=15mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Zahl der Tage, wo nied > 150 und nied < 9999",
+r20,Niederschlag Zahl der Tage >=20mm,"Zahl der Tage >=20mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Zahl der Tage, wo nied > 200 und nied < 9999",
+r30,Niederschlag Zahl der Tage >=30mm,"Zahl der Tage >=30mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Zahl der Tage , wo nied > 300 und nied < 9999",
+raureif,Zahl der Tage mit Raureif,"Zahl der Tage mit Raureif, aus Code B - code_b = (4, 7, 8, 9)",
+reif,Zahl der Tage mit Reif,"Zahl der Tage mit Reif, aus Code B - code_b = (3, 6, 8, 9, 10, 11)",
+rel,Relative Feuchte Monatsmittel,"Relative Luftfeuchte, Monatsmittel der Tagesmittel - ab 1971: Mittel aller (7 Uhr-Wert +7 Uhr-Wert +14 Uhr-Wert +19 Uhr-Wert)/4   /vor 1971: Mittel aller (7h+7h+14h+21h)/4",%
+rel14,Relative Feuchte Monatsmittel der Beobachtungstermine II,"Relative Luftfeuchte, Monatsmittel zum Beobachtungstermin II (14:00 MEZ) - Mittel aller 14Uhr Termine",%
+rel19,Relative Feuchte Monatsmittel der Beobachtungstermine III,"Relative Luftfeuchte, Monatsmittel zum Beobachtungstermin III (19:00 MEZ) - Mittel aller19 Uhr Termine, vor 1971 aller 21 Uhr",%
+rel7,Relative Feuchte Monatsmittel der Beobachtungstermine I,"Relative Luftfeuchte, Monatsmittel zum Beobachtungstermin I (07:00 MEZ) - Mittel aller 7 Uhr Termine",%
+rk1,Niederschlag Zahl der Tage >=0.1 und <=2.4mm,"Zahl der Tage >=0.1 und <=2.4mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Tage mit 0.1 <= nied <= 2.4",
+rk2,Niederschlag Zahl der Tage >=2.5 und <=4.9mm,"Zahl der Tage >=2.5 und <=4.9mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Tage mit 2.5 <= nied <= 4.9",
+rk3,Niederschlag Zahl der Tage >=5.0 und <=9.9mm,"Zahl der Tage >=5.0 und <=9.9mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Tage mit 5.0 <= nied <= 9.9",
+rk4,Niederschlag Zahl der Tage >=10.0 und <=19.9mm,"Zahl der Tage >=10.0 und <=19.9mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Tage mit 10.0 <= nied <= 19.9",
+rk5,Niederschlag Zahl der Tage >=20.0 und <=49.9mm,"Zahl der Tage >=20.0 und <=49.9mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Tage mit 20.0 <= nied <= 49.9",
+rk6,Niederschlag Zahl der Tage >=50.0mm,"Zahl der Tage >=50.0mm Niederschlag, Monatsauswertung der Tagessummen zum Termin I - Tage mit nied >= 50.0",
+rmax,größte Tagesniederschlagssumme eines Monats,Monatsmaximum der Tagessumme des Niederschlags zum Termin I (7 MEZ) - Maximum aller Tagesniederschläge,mm
+rmaxt,Tag des Niederschlagsmaximums eines Monats,Tag des Monatsmaximums der Tagessumme des Niederschlags zum Termin I (7 MEZ) - Tag mit Tagesniederschlagsmaximum,
+rsum,Monatssumme des Niederschlags,Monatssumme des Niederschlags aus Tagessummen zum Beobachtungstermin I (7 MEZ) - Summe aller Tagesniederschläge,mm
+rsum19,12 stündige Monatssumme des Niederschlags 7-19 Uhr,12 stündige Monatssumme des Niederschlags von 7-19 Uhr MEZ - Summe alle nied19 >= 0 und <= 9000,mm
+rsum7,12 stündige Monatssumme des Niederschlags 19-7 Uhr,12 stündige Monatssumme des Niederschlags von 19 Vortag -7 Uhr MEZ - Summe alle nied07 >= 0 und <= 9000,mm
+s,Monatssumme der Sonnenscheindauer,"Sonnenscheindauer, Monatssumme der Stundenwerte - Summe aller Stunden mit Sonnenscheindauer",h
+sch1,Zahl der Tage mit Schneehöhen >=  1 cm,Zahl der Tage mit Schneehöhen >=  1 cm - Zahl der Tage mit schnee >= 1,
+sch10,Zahl der Tage mit Schneedecke >= 10 cm,Zahl der Tage mit Schneedecke >= 10 cm - Zahl der Tage mit schnee >= 10,
+sch100,Zahl der Tage mit Schneehöhen >=100 cm,Zahl der Tage mit Schneehöhen >=100 cm - Zahl der Tage mit schnee >= 100,
+sch15,Zahl der Tage mit Schneehöhen >= 15 cm,Zahl der Tage mit Schneehöhen >= 15 cm - Zahl der Tage mit schnee >= 15,
+sch20,Zahl der Tage mit Schneehöhen >= 20 cm,Zahl der Tage mit Schneehöhen >= 20 cm - Zahl der Tage mit schnee >= 20,
+sch30,Zahl der Tage mit Schneehöhen >= 30 cm,Zahl der Tage mit Schneehöhen >= 30 cm - Zahl der Tage mit schnee >= 30,
+sch5,Zahl der Tage mit Schneehöhen >=  5 cm,Zahl der Tage mit Schneehöhen >=  5 cm - Zahl der Tage mit schnee >= 5,
+sch50,Zahl der Tage mit Schneehöhen >= 50 cm,Zahl der Tage mit Schneehöhen >= 50 cm - Zahl der Tage mit schnee >= 50,
+schdeck,Zahl der Tage mit Schneedecke,"Zahl der Tage mit Schneedecke - schnee >= 1cm, egal ob schnee_a = 2 oder 3",
+schfall,Zahl der Tage mit Schneefall,"Zahl der Tage mit Schneefall, aus Niederschlagsart - nieda = (2, 8, 12, 14) und nied >=0.1mm!!",
+schmax,Maximale Tagesschneehöhe,Maximale Tagesschneehöhe - Maximum von schnee,cm
+schoenw,Zahl der Schönwettertage,Zahl der Schönwettertage: Bewölkungsmenge Tagesmittel  < 50/100 - Bewölkungsmittel (bewmit) < 50/100,
+schreg,Zahl der Tage mit Schneefall und Regen,"Zahl der Tage mit Schneefall und Regen, aus der Niederschlagsart - nieda = (5 ,10 ,13 ,15) und nied >= 0.1 mm !!",
+schwuel,Zahl der schwülen Tage,"Zahl der schwülen Tage (Äquivalent-Temperatur >56 °C) - wenn Äquivalent-Temperatur > 56 °C ist (7,14,19 Uhr Termin)",
+sicht0,Zahl der Termine mit Sicht <=200 m,Zahl der Termine mit Sicht <=200 m - Tage mit sicht <= 200,
+sicht1,Zahl der Termine mit Sicht >200 <=500 m,Zahl der Termine mit Sicht >200 und <=500 m - Tage mit 200 < sicht <= 500,
+sicht2,Zahl der Termine mit Sicht >500 <=1000 m,Zahl der Termine mit Sicht >500 und <=1000 m - Tage mit 500 < sicht <= 1000,
+sicht3,Zahl der Termine mit Sicht >1000 <=2000 m,Zahl der Termine mit Sicht >1000 und <=2000 m - Tage mit 1000 < sicht <= 2000,
+sicht3a,Zahl der Termine mit Sicht >2000 <=10000 m,Zahl der Termine mit Sicht >2000 und <=10000 m - Tage mit 2000 < sicht <= 10000,
+sicht4,Zahl der Termine mit Sicht >10000 <=20000 m,Zahl der Termine mit Sicht >10000 und <=20000 m - Tage mit 10000 < sicht <= 20000,
+sicht5,Zahl der Termine mit Sicht >20000 <=50000 m,Zahl der Termine mit Sicht >20000 und <=50000 m - Tage mit 20000 < sicht <= 50000,
+sicht6,Zahl der Termine mit Sicht >50000 m,Zahl der Termine mit Sicht >50000 m - Tage mit sicht > 50000,
+sommer,Zahl der Sommertage,Zahl der Sommertage: Lufttemperatur 2m Tagesmaximum >=25.0°C - Summe der Tage mit tmax >=250,
+sonn0,Zahl der Tage ohne Sonnenschein,Zahl der Tage mit Sonne = 0 Stunden - Summe aller Stundenwerte pro Tag,
+sonn1,Zahl der Tage  mit Sonnenschein  >= 1h,Zahl der Tage mit Sonne >= 1 Stunde - Summe aller Stundenwerte pro Tag,
+sonn10,Zahl der Tage mit Sonnenschein  >= 10h,Zahl der Tage mit Sonne >= 10 Stunden - Summe aller Stundenwerte pro Tag,
+sonn5,Zahl der Tage mit Sonnenschein >= 5h,Zahl der Tage mit Sonne >= 5 Stunden - Summe aller Stundenwerte pro Tag,
+stFrost,Zahl der Tage mit strengem Frost,Zahl der Tage mit strengem Frost: Lufttemperatur 2m Tagesminimum < -10.0°C - Summe aller Tage wo tmin < -100,
+t,Lufttemperatur 2m Monatsmittel,"Lufttemperatur in 2m Höhe,Monatsmittel aus Termin- und Tagesextremwerten - (7 Uhr-Mittel +19 Uhr-Mittel + Mittleres Maximum + Mittleres Minimum)/4  / vor 1971: (7 Uhr-Mittel + 14 Uhr-Mittel + 2 * 21 Uhr-Mittel) / 4",°C
+t14,Lufttemperatur 2m Monatsmittel der Beobachtungstermine II,"Lufttemperatur in 2m Höhe, Monatsmittel der Terminwerte II (14 MEZ) - Mittel",°C
+t19,Lufttemperatur 2m Monatsmittel der Beobachtungstermine III,"Lufttemperatur in 2m Höhe, Monatsmittel der Terminwerte III (19 MEZ) - Mittel, vor 1971 21 Uhr, ab 1971 19 Uhr",°C
+t5m,Lufttemperatur +5cm Monatsmittel,"Lufttemperatur in 5cm Höhe, Monatsmittel aller Nachtminima - Mittel aller täglicher Erdbodenminima (tag.erdmin)",°C
+t5min,Lufttemperatur +5cm Monatsminimum,"Lufttemperatur in 5cm Höhe, Monatsminimum aller Nachtminima - Minimum der Spalte tag.erdmin",°C
+t5mint,Lufttemperatur +5cm Tag des Monatsminimums,"Lufttemperatur in 5cm Höhe, Tag des Monatsminimums aller Nachtminima - Tag des Monatsminimums",
+t7,Lufttemperatur 2m Monatsmittel der Beobachtungstermine I,"Lufttemperatur in 2m Höhe, Monatsmittel der Terminwerte I (7 MEZ) - Mittel",°C
+tau,Zahl der Tage mit Tau,"Zahl der Tage mit Tau, aus Code B - code_b = (1, 5, 10, 11)",
+temp10,Lufttemperatur 2m Zahl der Tage mit 10 °C <= Tagesmittel,Zahl der Tage mit 10 °C <= Tagesmittel der Lufttemperatur in 2m Höhe - Tage mit t >=100,
+temp15,Lufttemperatur 2m Zahl der Tage mit 15 °C <= Tagesmittel,Zahl der Tage mit 15 °C <= Tagesmittel der Lufttemperatur in 2m Höhe - Tage mit t >=150,
+temp20,Lufttemperatur 2m Zahl der Tage mit 20 °C <= Tagesmittel,Zahl der Tage mit 20 °C <= Tagesmittel der Lufttemperatur in 2m Höhe - Tage mit t >=200,
+temp25,Lufttemperatur 2m Zahl der Tage mit 25 °C <= Tagesmittel,Zahl der Tage mit 25 °C <= Tagesmittel der Lufttemperatur in 2m Höhe - Tage mit t >=250,
+temp5,Lufttemperatur 2m Zahl der Tage mit 5 °C <= Tagesmittel,Zahl der Tage mit 5 °C <= Tagesmittel der Lufttemperatur in 2m Höhe - Tage mit t >= 50,
+tempn5,Lufttemperatur 2m Zahl der Tage mit -5 °C  < Tagesmittel,Zahl der Tage mit -5 °C  < Tagesmittel der Lufttemperatur in 2m Höhe - Tage mit t > -50,
+tk0,Lufttemperatur 2m Zahl der Tage mit Tagesmittel < -25 °C,Zahl der Tage mit Tagesmittel der Lufttemperatur in 2m Höhe  < -25 °C - Tage mit t < -250,
+tk1,Lufttemperatur 2m Zahl der Tage mit -25 °C <= Tagesmittel < -20 °C,Zahl der Tage mit -25 °C <= Tagesmittel der Lufttemperatur in 2m Höhe < -20 °C - Tage mit -250 <= t < -200,
+tk10,Lufttemperatur 2m Zahl der Tage mit 20 °C <= Tagesmittel < 25 °C,Zahl der Tage mit 20 °C <= Tagesmittel der Lufttemperatur in 2m Höhe < 25 °C - Tage mit 200 <= t < 250,
+tk2,Lufttemperatur 2m Zahl der Tage mit -20 °C <= Tagesmittel < -15 °C,Zahl der Tage mit -20 °C <= Tagesmittel der Lufttemperatur in 2m Höhe < -15 °C - Tage mit -200 <= t < -150,
+tk3,Lufttemperatur 2m Zahl der Tage mit -15 °C <= Tagesmittel < -10 °C,Zahl der Tage mit -15 °C <= Tagesmittel der Lufttemperatur in 2m Höhe < -10 °C - Tage mit -150 <= t < -100,
+tk4,Lufttemperatur 2m Zahl der Tage mit -10 °C <= Tagesmittel < -5 °C,Zahl der Tage mit -10 °C <= Tagesmittel der Lufttemperatur in 2m Höhe < -5 °C - Tage mit -100 <= t < -50,
+tk5,Lufttemperatur 2m Zahl der Tage mit -5 °C <= Tagesmittel < 0 °C,Zahl der Tage mit -5 °C <= Tagesmittel der Lufttemperatur in 2m Höhe < 0 °C - Tage mit -50 <= t < 0,
+tk6,Lufttemperatur 2m Zahl der Tage mit 0 °C <= Tagesmittel <  5 °C,Zahl der Tage mit 0 °C <= Tagesmittel der Lufttemperatur in 2m Höhe <  5 °C - Tage mit 0 <= t < 50,
+tk7,Lufttemperatur 2m Zahl der Tage mit 5 °C <= Tagesmittel <  10 °C,Zahl der Tage mit 5 °C <= Tagesmittel der Lufttemperatur in 2m Höhe <  10 °C - Tage mit 50 <= t < 100,
+tk8,Lufttemperatur 2m Zahl der Tage mit 10 °C <= Tagesmittel <  15 °C,Zahl der Tage mit 10 °C <= Tagesmittel der Lufttemperatur in 2m Höhe <  15 °C - Tage mit 100 <= t < 150,
+tk9,Lufttemperatur 2m Zahl der Tage mit 15 °C <= Tagesmittel < 20 °C,Zahl der Tage mit 15 °C <= Tagesmittel der Lufttemperatur in 2m Höhe < 20 °C - Tage mit 150 <= t < 200,
+tmax,Lufttemperatur 2m Monatsmaximum,"Lufttemperatur in 2m Höhe, Monatsmaximum aus Tagesmaxima - größtes absolutes Tagesmaximum",°C
+tmaxe10,Erdbodentemperatur -10cm Tag des Monatsmaximums,"Erdbodentemperatur in 10cm Tiefe, Tag des Monatsmaximums der Stundenwerte - Tag des Monatsmaximums",
+tmaxe100,Erdbodentemperatur -100cm Tag des Monatsmaximums,"Erdbodentemperatur in 100cm Tiefe, Tag des Monatsmaximums der Stundenwerte - Tag des Monatsmaximums",
+tmaxe20,Erdbodentemperatur -20cm Tag des Monatsmaximums,"Erdbodentemperatur in 20cm Tiefe, Tag des Monatsmaximums der Stundenwerte - Tag des Monatsmaximums",
+tmaxe200,Erdbodentemperatur -200cm Tag des Monatsmaximums,"Erdbodentemperatur in 200cm Tiefe, Tag des Monatsmaximums der Stundenwerte - Tag des Monatsmaximums",
+tmaxe50,Erdbodentemperatur -50cm Tag des Monatsmaximums,"Erdbodentemperatur in 50cm Tiefe, Tag des Monatsmaximums der Stundenwerte - Tag des Monatsmaximums",
+tmaxt,Lufttemperatur 2m Tag des Monatsmaximums,"Lufttemperatur in 2m Höhe, Tag des Monatsmaximums - Tag des Monatsmaximums",
+tmin,Lufttemperatur 2m Monatsminimum,"Lufttemperatur in 2m Höhe, Monatsminimum aus Tagesminima - kleinstes absolutes Tagesminimum",°C
+tmine10,Erdbodentemperatur -10cm Tag des Monatsminimums,"Erdbodentemperatur in 10cm Tiefe, Tag des Monatsminimums der Stundenwerte - Tag des Monatsminimums",
+tmine100,Erdbodentemperatur -100cm Tag des Monatsminimums,"Erdbodentemperatur in 100cm Tiefe, Tag des Monatsminimums der Stundenwerte - Tag des Monatsminimums",
+tmine20,Erdbodentemperatur -20cm Tag des Monatsminimums,"Erdbodentemperatur in 20cm Tiefe, Tag des Monatsminimums der Stundenwerte - Tag des Monatsminimums",
+tmine200,Erdbodentemperatur -200cm Tag des Monatsminimums,"Erdbodentemperatur in 200cm Tiefe, Tag des Monatsminimums der Stundenwerte - Tag des Monatsminimums",
+tmine50,Erdbodentemperatur -50cm Tag des Monatsminimums,"Erdbodentemperatur in 50cm Tiefe, Tag des Monatsminimums der Stundenwerte - Tag des Monatsminimums",
+tmint,Lufttemperatur 2m Tag des Monatsminimums,"Lufttemperatur in 2m Höhe, Tag des Monatsminimums - Tag des Monatsminimums",
+tropen,Zahl der Tropentage,Zahl der Tropentage: Tagesmaximum der Lufttemperatur in 2m Höhe >=30.0°C - Summe der Tage mit tmax >= 30.0 °C,
+trueb,Zahl der trüben Tage,Zahl der trüben Tag: Bewölkungsmenge Tagesmittel > 80/100 - Bewölkungsmittel (bewmit) > 80/100,
+typ,Qualitätstyp,"Qualitätsflag={0-2: nicht geprüft, 3-5: automatisch geprüft, 6: manuell endgeprüft}",
+v100,Windgeschwindigkeit Zahl der Tage mit Böen >= 100 km/h,Zahl der Tage mit Windböen >= 100 km/h - wenn vvmax > 277 und <999,
+v60,Windgeschwindigkeit Zahl der Tage mit Böen >= 60 km/h,Zahl der Tage mit Windböen >= 60 km/h - wenn vvmax > 166 und < 999,
+v70,Windgeschwindigkeit Zahl der Tage mit Böen >= 70 km/h,Zahl der Tage mit Windböen >= 70 km/h - wenn vvmax > 194 und <999,
+v80,Windgeschwindigkeit Zahl der Tage mit Böen >= 80 km/h,Zahl der Tage mit Windböen >= 80 km/h - wenn vvmax > 222 und < 999,
+vv,Windgeschwindigkeit Monatsmittel,"Windgeschwindigkeit, Monatsmittel aus Tagesmitteln",m/s
+w6,Windgeschwindigkeit Zahl der Tage mit Windstärke >= 6 Bft,"Zahl der Tage mit Windstärke >= 6 Bft, aus Code C - code_c = (3, 4, 6, 7, 8, 9, 10, 11)",
+w8,Windgeschwindigkeit Zahl der Tage mit Windstärke >= 8 Bft,"Zahl der Tage mit Windstärke >= 8 Bft, aus Code C - code_c = (4, 7, 9, 11)",
